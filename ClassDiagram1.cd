@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BaseBlock">
+    <Position X="5.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CAEEAIAAEAAAEAAAAAEAAAAAAAAEAAAAgAACQBAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\BaseBlock.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bounds" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BlocksBuffer&lt;T&gt;">
+    <Position X="20.5" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAEAEAIAAAAACIAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\BlocksBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BombBlock">
+    <Position X="2" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\BombBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColorBlock">
+    <Position X="6" Y="5.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAgAIAAAAAAAAAAAAAAAAAQBEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\ColorBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StripeBlock">
+    <Position X="9.5" Y="5.25" Width="3.25" />
+    <InheritanceLine Type="BaseBlock" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.625" Y="4.367" />
+        <Point X="7.625" Y="4.875" />
+        <Point X="11.125" Y="4.875" />
+        <Point X="11.125" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\StripeBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoardSettings">
+    <Position X="12" Y="8.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAAAAAQAAAAACABEAAACAAAQAgAAwBAQ=</HashCode>
+      <FileName>Assets\Scripts\Config\BoardSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlocksDestroyedListener">
+    <Position X="6" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\BlockDestroyListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlocksProvider">
+    <Position X="15.75" Y="0.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAARBAAAAAQAAAAAEAAAAEAAAAAABAAAAAABABAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\BlocksProvider.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="bombBlocksBuffer" />
+      <Field Name="colorBlocksBuffer" />
+      <Field Name="stripeBlocksBuffer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardManager">
+    <Position X="11.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>ACAQQAAAACAAAAAAAABABAAAAAAAAAAIIABCAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\BoardManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="blocksProvider" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="board" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ScoreManager">
+    <Position X="8.75" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAACAAAQAAgAAIABAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeManager">
+    <Position X="3.5" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAgCAAgAAAAAAgABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Gameplay\TimeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManager">
+    <Position X="15" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAACAAAACAAAAAAQAAAIQAAAAAAACEA=</HashCode>
+      <FileName>Assets\Scripts\SceneManagement\SceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIScenesNavigation">
+    <Position X="17.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Scripts\SceneManagement\UIScenesNavigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BlockBounds">
+    <Position X="2" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Blocks\BlockBounds.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Scenes">
+    <Position X="20" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAABAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Config\Scenes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ScoreTags">
+    <Position X="21.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Config\ScoreTags.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

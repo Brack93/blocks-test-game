@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0847b3f108716bc488ce43da2af93055
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - colorBlockPrefab: {fileID: 1596620441161169525, guid: 04e6e3d38dcffe94abc7fca2b7afa302,
+      type: 3}
+  - stripeBlockPrefab: {fileID: 8236270304570451493, guid: 96aac380d23c09f42948dc0937c353c2,
+      type: 3}
+  - bombBlockPrefab: {fileID: 8236270304570451493, guid: 76b17d8c41778634c8ca1dbd08b0e715,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
