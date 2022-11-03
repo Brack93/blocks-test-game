@@ -66,6 +66,8 @@ public class BoardManager : MonoBehaviour
 
         for (int i = 0; i < BoardSettings.BOARD_SIZE; i++)
         {
+            if (canMove) break;
+
             for (int j = 0; j < BoardSettings.BOARD_SIZE; j++)
             {
                 BaseBlock block = board[i, j];
